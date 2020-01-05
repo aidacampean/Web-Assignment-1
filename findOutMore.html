@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chollerton Tearooms</title>
+    <link rel="stylesheet" href="website.css">
+    <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="findoutmore">
+        <!--TITLE OF THE CURRENT PAGE-->
+        <h1>Find out more about us</h1>
+        <!--FONT USED FOR THE TITLE-->
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    </div>
+    <!--NAVIGATION BAR-->
+    <nav>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="findOutMore.html">FIND OUT MORE</a></li>
+            <li><a href="adminForm.php">ADMIN</a></li>
+            <li><a href="credits.html">CREDITS</a></li>
+            <li><a href="wireframe.pdf">WIREFRAME</a></li>
+        </ul>
+    </nav>
+</header>
+<!--FORM SECTION-->
+    <form action="form.php" method="get">
+        <!--ENTER FIRST NAME-->
+    <label>Forename
+         <input type="text" name="forename" accesskey="f">
+    </label>
+        <!--ENTER LAST NAME-->
+        <label>Surname
+         <input type="text" name="surname" accesskey="s">
+    </label>
+        <!--ENTER EMAIL ADDRESS-->
+        <label>Email address
+    <input type="text" name="email" accesskey="e">
+    </label>
+        <!--ENTER TELEPHONE NUMBER-->
+        <label>Landline Telephone Number
+        <input type="text" name="number" accesskey="l">
+    </label>
+    <label>Mobile Telephone Number
+    <input type="text" name="number" accesskey="m">
+    </label>
+        <!--ENTER POSTAL ADDRESS-->
+    <label>Postal address
+        <input type="text" name="postalAddress" accesskey="m">
+    </label>
+
+    <div>
+        <!--CHOOSE THE WAY YOU WANT THE INFORMATION TO BE RECEIVED -->
+        How would you like to receive the information?
+    <label class="sms">SMS
+        <input type="radio" name="information" value="sms" accesskey="m">
+    </label>
+    <label class="email">Email
+        <input type="radio" name="information" value="email" accesskey="e">
+    </label>
+    <label class="post">Post
+        <input type="radio" name="information" value="post" accesskey="p">
+    </label>
+    </div>
+
+    <!--FACILITIES-->
+    <label>Find out more about
+        <select name="facilities">
+         <option value="1">Bed and Breakfast</option>
+         <option value="2">Craft shop</option>
+         <option value="3">Post office</option>
+         <option value="4">Tearoom</option>
+         <option value="5">Village store</option>
+        </select>
+    </label>
+
+
+<div>
+    <input type="submit" value="Submit" accesskey="u">
+</div>
+</form>
+
+<!--IMAGES USED IN THE FOOTER-->
+<div class="img">
+    <img src="dan-gold-1115487-unsplash.jpg" alt="" style="width:500px;padding-top:5px;padding-left:20px;">
+    <img src="artem-gavrysh-698535-unsplash.jpg" alt="" style="width:500px;padding-top:5px;padding-left:20px;">
+    <img src="mike-petrucci-131817-unsplash.jpg" alt="" style="width:500px;padding-top:5px;padding-left:20px;">
+</div>
+
+</body>
+<!--FOOTER SECTION CONTACT-->
+
+<footer>
+<section class="section section-dark">
+        <h2>Contact</h2>
+            <p>The Chollerton Tearooms Company, Copyright &copy; </p>
+            <p>Northumberland, Newcastle upon Tyne, Pilgrim Street, NE78HL</p>
+            <p>E-mail : collhertontea@colinc.com</p>
+            <p>Phone : 01956660934</p>
+</section>
+</footer>
+</html>
